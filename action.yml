@@ -1,0 +1,9 @@
+name: 'Blog deploy'
+description: 'A GitHub Action to build and publish Blog sites to GitHub Pages'
+author: 'maxlxq'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'
+  color: 'gray-dark'
